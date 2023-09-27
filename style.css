@@ -1,0 +1,329 @@
+
+* {
+  /* Reset de estilos para remoção de margens e preenchimento padrão */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica; /* Define fonte padrão */
+  font-weight: 300; /*Define a espessura do texto*/
+}
+
+/*Puxar a fonte*/
+@font-face {
+  font-family: 'SansSerifBldFLF' ; /*Define o nome da fonte*/
+  src: url(font/SansSerifBldFLF.otf) format('opentype'); /*Local da fonte*/
+}
+
+body{
+  background-color: #f8f8f8; /*Define a cor de fundo da página*/
+}
+
+/* Banner */
+.banner-image {
+  background-image: url('img/climb2.jpg'); /*Define a imagem do banner*/
+  background-size: cover; /*Define que a imagem cubra todo o espaço html mantendo a proporção da imagem*/
+  
+}
+
+/* Texto do banner */
+.content h1{
+  font-family: 'SansSerifBldFLF'; /*Define a fonte do texto*/
+  font-size: 90px; /*Define o tamanho do texto*/
+}
+
+/*Menu de navegação*/
+.nav-link{
+  color: white; /*Define a cor dos links*/
+  margin-right: 10px; /*Define o espaçamento a direita dos itens*/
+}
+
+/*Define o estilo do menu quando o cursor do mouse é passado em cima*/
+.nav-link:hover{
+  color: #F9073D; /*Define a cor dos links*/
+  transition: 0.3s; /*Define o tempo da transição de um estilo para o outro */
+}
+
+/* Container dos produtos */
+.container{
+  max-width: 1280px; /*Define a largura máxima do elemento*/
+  margin: auto; /* Centraliza os elementos*/
+}
+
+
+
+/* Seção do slogan RedBull */
+.slogan{
+  background-color: #f8f8f8; /*Define a cor do fundo*/
+  padding: 200px; /*Define um preenchimento em todos os lados do elemento*/
+  display: grid; /*Organiza o layout em grade*/
+  grid-template-columns: 1fr; /*Define que o grid terá apenas 1 grade*/
+  text-align: center; /*Alinha os textos ao centro*/
+  justify-content: center; /*Alinha os itens no centro horizontalmente*/
+  
+}
+
+/* Cabeçalho de nível 6*/
+.slogan h6{
+  font-size: 18px; /*Define o tamanho da fonte*/
+  font-weight: 700; /*Define a espessura da fonte*/
+  margin-top: -70px; /*Define a margem no topo do elemento*/
+  color: #222121; /*Define a cor da fonte*/
+  font-family: 'SansSerifBldFLF'; /*Define a fonte do texto*/
+  
+}
+
+/* Cria uma linha horizontal */
+.slogan hr{
+  margin-top: -30px; /*Define a margem no topo do elemento*/
+}
+
+/* Cabeçalho de nível 1*/
+.slogan h1{
+  font-family: 'SansSerifBldFLF'; /*Define a fonte do texto*/
+  font-size: 80px; /*Define o tamanho da fonte*/
+  color: #1A1919; /*Define a cor da fonte*/
+}
+
+/* Cabeçalho de nivel 4 */
+.slogan h4{
+  color: #4D4E51; /*Define a cor do texto*/
+}
+
+
+/*Seção do RedBull Original */
+#redbull1{
+  margin-top: 80px; /*Define a margem no topo do elemento*/
+  background-color: rgb(255, 255, 255); /*Define a cor de fundo*/
+  border-radius: 20px; /*Define o arredondamento das bordas*/
+  display: grid; /* Organiza o layout em grade*/
+  grid-template-columns: 1fr 1fr; /* Define que irão ocupar duas colunas */
+  padding-top: 25px; /* Define a margem interna */
+  
+}
+
+#redbull2{
+  margin-top: 80px; /*Define a margem no topo do elemento*/
+  background-color: #009EDF; /*Define a cor de fundo*/
+  border-radius: 20px; /*Define o arredondamento das bordas*/
+  display: grid; /* Organiza o layout em grade*/
+  grid-template-columns: 1fr 1fr; /* Define que irão ocupar duas colunas */
+  padding-top: 25px; /* Define a margem interna */
+  
+}
+
+#redbull3{
+  margin-top: 80px; /*Define a margem no topo do elemento*/
+  background: linear-gradient(106deg, #008ACB 0.95%, rgba(0, 138, 203, 0.58) 100%); /*Define a cor de fundo com degradê*/
+  border-radius: 20px; /*Define o arredondamento das bordas*/
+  display: grid; /* Organiza o layout em grade*/
+  grid-template-columns: 1fr 1fr; /* Define que irão ocupar duas colunas */
+  padding-top: 25px; /* Define a margem interna */
+  
+}
+
+#redbull4{
+  margin-top: 80px; /*Define a margem no topo do elemento*/
+  background: linear-gradient(105deg, #088C2B 0.6%, rgba(38, 162, 71, 0.78) 100%); /*Define a cor de fundo com degradê*/
+  border-radius: 20px; /*Define o arredondamento das bordas*/
+  display: grid; /* Organiza o layout em grade*/
+  grid-template-columns: 1fr 1fr; /* Define que irão ocupar duas colunas */
+  padding-top: 25px; /* Define a margem interna */
+  
+}
+
+.redbull1 img{
+    width: 200px; /* Define o tamanho da imagem */
+    margin-right: 60px; /* Define a margem externa da direita */
+    margin-left: 30px; /* Define a margem externa da esquerda */
+}
+
+.redbull4 img{
+  width: 250px; /* Define o tamanho da imagem */
+    margin-right: 60px; /* Define a margem externa da direita */
+    margin-left: 30px; /* Define a margem externa da esquerda */
+}
+
+/* Cabeçalho de nível 1 */
+.texto1 h1{
+    font-size: 70px; /*Define o tamanho da fonte*/
+    margin-left: 50px; /*Define a margem à esquerda do elemento*/
+    text-align: left; /* Define o alinhamento do texto à esquerda*/
+}
+
+/* Parágrafo */
+.texto1 p{
+  font-size: 17px; /*Define o tamanho da fonte*/
+  text-align: left; /* Define o alinhamento do texto à esquerda*/
+  margin-left: 50px; /*Define a margem à esquerda do elemento*/
+  margin-bottom: 30px; /*Define a margem embaixo do elemento*/
+}
+
+/* Cabeçalho de nível 1 */
+.texto2 h1{
+  color: white; /*Define a cor do texto*/
+  font-size: 70px; /*Define o tamanho da fonte*/
+  margin-left: 50px; /*Define a margem à esquerda do elemento*/
+  text-align: left; /* Define o alinhamento do texto à esquerda*/
+}
+
+/* Parágrafo */
+.texto2 p{
+  color: white; /*Define a cor do texto*/
+  font-size: 17px; /*Define o tamanho da fonte*/
+  text-align: left; /* Define o alinhamento do texto à esquerda*/
+  margin-left: 50px; /*Define a margem à esquerda do elemento*/
+  margin-bottom: 30px; /*Define a margem abaixo do elemento*/
+}
+
+/* Botão de compra */
+.botao{
+  font-weight: 600; /*Define a espessura do texto*/
+  color: white; /*Define a cor do texto*/
+  background-color: #FF2849; /*Define a cor do botão*/
+  border: none; /*Define que o botão não terá bordas*/
+  border-radius: 15px; /*Define o arredondamento do botão*/ 
+  padding: 7px; /*Define um espaçamento em todos os lados do botão*/
+  width: 35%; /*Define a largura do botão*/
+  text-decoration: none; /*Dfine que o texto não terá decorações*/
+  font-size: 14px; /*Define o tamanho do texto*/
+  margin-top: 40px; /*Define a margem acima do botão*/
+  
+}
+
+/*Define o estilo do botão quando o cursor do mouse é passado em cima */
+.botao:hover{
+  background-color: #be1b34; /*Define a cor do botão*/
+  transition: 0.4s; /*Define o tempo da transição entre um estilo e outro*/
+}
+
+/* Seção de sustentabilidade */
+#video{
+  margin-top: -50px; /*Define a margem acima do elemento*/
+  background-color: #f8f8f8; /*Define a cor de fundo*/
+  display: grid; /* Organiza o layout em grade*/
+  grid-template-columns: 1fr 1fr; /* Define que irão ocupar duas colunas */
+  padding: 30px; /*Define um espaçamento em todos os lados do elemento*/
+  margin-left: 40px; /*Define a margem à esquerda do elemento*/
+}
+
+/* Cabeçalho de nível 5 */
+.texto-video h5{
+  font-family: 'SansSerifBldFLF'; /*Define a fonte do texto*/
+  font-size: 25px; /*Define o tamanho do texto*/
+  text-decoration: underline; /*Define a decoração do texto sublinhado*/
+  text-decoration-color: #F9073D; /*Altera a cor da decoração do texto*/
+  margin-bottom: 40px; /* Define a margem abaixo do elemento*/
+}
+
+/* Cabeçalho de nível 1 */
+.texto-video h1{
+  font-family: 'SansSerifBldFLF'; /*Define a fonte do texto*/
+  font-size: 60px; /*Define o tamanho do texto*/
+}
+
+/* Parágrafo */
+.texto-video p{
+  font-size: 20px; /*Define o tamanho do texto*/
+  color: #4D4E51; /*Define a cor do texto*/
+}
+
+/* Cabeçalho de nível 2 */
+.texto-video h2{
+  font-family: 'SansSerifBldFLF'; /*Define a fonte do texto*/
+  font-size: 60px; /*Define o tamanho do texto*/
+  color: #F9073D; /*Define a cor do texto*/
+}
+
+/* Cabeçalho de nível 6 */
+.texto-video h6{
+  color: #F9073D; /*Define a cor do texto*/
+  font-size: 20px; /*Define o tamanho do texto*/
+}
+
+/* Botão de Saiba Mais */
+.botao2{
+  font-weight: 600; /*Define a espessura do texto*/
+  color: white; /*Define a cor do texto*/
+  background-color: #a09f9f; /*Define a cor do botão*/
+  border: #1A1919; /*Define a borda do botão*/
+  border-radius: 15px; /*Define o arredondamento do botão*/
+  padding: 7px; /*Define o espaçamento em todos os lados do botão*/
+  width: 35%; /*Define a largura do botão*/
+  text-decoration: none; /*Define que o texto do botão não terá decoração*/
+  font-size: 14px; /*Define o tamanho da fonte*/
+  margin-top: 40px; /*Define a margem acima do botão*/
+  
+}
+
+/*Define o estilo do botão quando o cursor do mouse é passado em cima */
+.botao2:hover{
+  background-color: #e52441; /*Define a cor do botão*/
+  transition: 0.4s; /*Define o tempo de transição entre um estilo e outro*/
+}
+
+@media screen and (max-width: 768px) {  /* Deixa página responsiva para telas de no mínimo 350px */
+  body{
+    display: grid;  /* Alinha os conteúdos na vertical */
+    grid-template-columns: 1fr; /* Define que irão ocupar uma coluna */
+    max-width: 100%; /* Se adapta 100% ao tamanho da tela */
+    height: auto; /*Define a altura como automática */
+}
+
+  .navbar-nav {
+    text-align: center; /* Alinha o texto ao centro */
+  }
+
+  .navbar-brand img {
+    max-width: 120px; /* Define tamanho da logo do menu */
+  }
+
+  #redbull1,
+  #redbull2,
+  #redbull3,
+  #redbull4
+  {
+    display: flex; /* Alinha os conteúdos na horizontal */
+    flex-direction: column; /* Define a direção em coluna */
+    padding: 30px; /* Define margem interna */
+    justify-content: center; /* Alinha o conteúdo ao centro */
+    align-items: center; /* Alinha o conteúdo ao centro */
+    text-align: center; /* Alinha o texto ao centro */
+  }
+
+  .redbull1 img,
+  .redbull4 img
+  {
+    max-width: 100vh; /* Se adapta 100vh ao tamanho da tela */
+    height: auto; /* Tamanho da imagem automático */
+  }
+
+  .texto1 h1,
+  .texto2 h1,
+  .texto3 h1,
+  .texto4 h1
+  {
+    font-size: 30px; /* Define tamanho do título */
+    margin-top: 30px; /* Define a margem externa em cima do título */
+    margin-bottom: 15px; /* Define a margem externa abaixo do título */
+    text-align: center;
+  }
+
+  .texto1 p,
+  .texto2 p,
+  .texto3 p,
+  .texto4 p
+   {
+    font-size: 20px; /* Define tamanho da descrição */
+  }
+
+
+  #video {
+    width: 100%; /* Cards ocupam 100% da largura da tela */
+    margin: 10px 0; /* Adicione margens entre os cards conforme necessário */
+    margin-top: 30px; /* Define a margem externa em cima do card */
+    margin-bottom: 30px; /* Define a margem externa abaixo do card */
+  }
+
+  
+}
+
